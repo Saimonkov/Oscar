@@ -1,10 +1,10 @@
 # Packaging
 *.pyc
 __pycache__
-*.egg-info
-/dist/
-/build/
-/node_modules/
+#*.egg-info
+#/dist/
+#/build/
+#/node_modules/
 
 # Vagrant
 .vagrant
@@ -14,18 +14,18 @@ __pycache__
 *.swo
 *.*~
 .~lock.*
-*.DS_Store
+#*.DS_Store
 .python-version
 
 # IDE files
-.project
-.pydevproject
-.settings
+#.project
+#.pydevproject
+#.settings
 .idea
 
 # Docs
-/docs/build/*
-*.pdf
+#/docs/build/*
+#*.pdf
 TODO
 
 # Test files
@@ -40,9 +40,9 @@ nosetests.xml
 /.tox/*
 
 # Sandbox content
-settings_local.py
-/sandbox/*.sqlite
-/sandbox/assets/
-/sandbox/public/
-/sandbox/whoosh_index/
-/sandbox/logs/
+#settings_local.py
+#/sandbox/*.sqlite
+#/sandbox/assets/
+#/sandbox/public/
+#/sandbox/whoosh_index/
+#/sandbox/logs/
